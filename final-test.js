@@ -20,7 +20,7 @@ const finalTestData = [
     // Präsens — verb neseparabil
     { type: 'luckentext', category: '⚙️ Präsens', question: 'Conjugă în Präsens:', sentence: 'Ich ______ meine Oma. (besuchen)', translation: 'O vizitez pe bunica.', accept: ['besuche'], correct: 'besuche', explanation: 'besuchen — neseparabil, prefixul rămâne lipit: „ich besuche".' },
     { type: 'luckentext', category: '⚙️ Präsens', question: 'Conjugă în Präsens:', sentence: 'Wir ______ unser Auto. (verkaufen)', translation: 'Vindem mașina.', accept: ['verkaufen'], correct: 'verkaufen', explanation: 'verkaufen — neseparabil; persoana 1 plural rămâne identică cu infinitivul.' },
-    { type: 'luckentext', category: '⚙️ Präsens', question: 'Conjugă în Präsens:', sentence: 'Sie ______ sich an dich. (sich erinnern)', translation: 'Își amintește de tine.', accept: ['erinnert'], correct: 'erinnert', explanation: 'sich erinnern — verb reflexiv, neseparabil: „sie erinnert sich".' },
+    { type: 'luckentext', category: '⚙️ Präsens', question: 'Conjugă în Präsens:', sentence: 'Sie (ea) ______ sich an dich. (sich erinnern)', translation: 'Își amintește de tine.', accept: ['erinnert'], correct: 'erinnert', explanation: 'sich erinnern — verb reflexiv, neseparabil: „sie erinnert sich".' },
 
     // Multiple choice — sens
     { type: 'multiple', category: '✅ Sens verb', question: 'Ce înseamnă „bekommen"?', options: ['a deveni', 'a primi', 'a începe', 'a comanda'], correct: 'a primi', explanation: 'bekommen = a primi. ATENȚIE: NU înseamnă „a deveni" (= werden) — capcană pentru români!' },

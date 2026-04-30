@@ -8,14 +8,14 @@
 // ============================================
 const ex1Data = [
     { id: 'a', sentence: 'Ich ____ meine Großmutter. (besuchen)', correct: 'besuche', accept: ['besuche'] },
-    { id: 'b', sentence: 'Sie ____ ein Geschenk. (bekommen)', correct: 'bekommt', accept: ['bekommt'] },
+    { id: 'b', sentence: 'Sie (ea) ____ ein Geschenk. (bekommen)', correct: 'bekommt', accept: ['bekommt'] },
     { id: 'c', sentence: 'Wir ____ die Rechnung. (bezahlen)', correct: 'bezahlen', accept: ['bezahlen'] },
     { id: 'd', sentence: 'Er ____ die Frage. (beantworten)', correct: 'beantwortet', accept: ['beantwortet'] },
     { id: 'e', sentence: 'Du ____ Deutsch sehr gut. (verstehen)', correct: 'verstehst', accept: ['verstehst'] },
     { id: 'f', sentence: 'Ich ____ den Sommer in Italien. (verbringen)', correct: 'verbringe', accept: ['verbringe'] },
     { id: 'g', sentence: 'Der Lehrer ____ die Regel. (erklären)', correct: 'erklärt', accept: ['erklärt', 'erklaert'] },
     { id: 'h', sentence: 'Ich ____ mich an dich. (sich erinnern)', correct: 'erinnere', accept: ['erinnere'] },
-    { id: 'i', sentence: 'Sie ____ sich für den blauen Pullover. (sich entscheiden)', correct: 'entscheidet', accept: ['entscheidet'] },
+    { id: 'i', sentence: 'Sie (ea) ____ sich für den blauen Pullover. (sich entscheiden)', correct: 'entscheidet', accept: ['entscheidet'] },
     { id: 'j', sentence: 'Das Glas ist ____. (zerbrechen, Perfekt)', correct: 'zerbrochen', accept: ['zerbrochen'] }
 ];
 
@@ -196,7 +196,7 @@ const ex4Data = [
     { id: 'a', sentence: 'Ich habe meine Schlüssel ____. (uitat)', correct: 'vergessen', accept: ['vergessen'] },
     { id: 'b', sentence: 'Der Lehrer ____ die Grammatik. (explică)', correct: 'erklärt', accept: ['erklärt', 'erklaert'] },
     { id: 'c', sentence: 'Wir ____ unser Auto. (vindem)', correct: 'verkaufen', accept: ['verkaufen'] },
-    { id: 'd', sentence: 'Sie ____ sich an die schöne Reise. (își amintește)', correct: 'erinnert', accept: ['erinnert'] },
+    { id: 'd', sentence: 'Sie (ea) ____ sich an die schöne Reise. (își amintește)', correct: 'erinnert', accept: ['erinnert'] },
     { id: 'e', sentence: 'Ich ____ einen Kaffee mit Milch. (comand)', correct: 'bestelle', accept: ['bestelle'] },
     { id: 'f', sentence: 'Der Sturm hat das Haus ____. (a distrus, Perfekt)', correct: 'zerstört', accept: ['zerstört', 'zerstoert'] },
     { id: 'g', sentence: 'Ich ____ dir dieses Buch. (recomand)', correct: 'empfehle', accept: ['empfehle'] },
@@ -250,7 +250,7 @@ function checkEx4() {
 // EXERCIȚIUL 5: Traducere RO → DE
 // ============================================
 const ex5Data = [
-    { id: 'a', ro: 'O vizitez pe bunica.', correct: 'Ich besuche meine Oma.', accept: ['ich besuche meine oma.', 'ich besuche meine oma', 'ich besuche meine großmutter.', 'ich besuche meine großmutter', 'ich besuche meine grossmutter.', 'ich besuche meine grossmutter'] },
+    { id: 'a', ro: 'O vizitez pe bunica mea.', correct: 'Ich besuche meine Oma.', accept: ['ich besuche meine oma.', 'ich besuche meine oma', 'ich besuche meine großmutter.', 'ich besuche meine großmutter', 'ich besuche meine grossmutter.', 'ich besuche meine grossmutter'] },
     { id: 'b', ro: 'Înțeleg bine germana.', correct: 'Ich verstehe Deutsch gut.', accept: ['ich verstehe deutsch gut.', 'ich verstehe deutsch gut', 'ich verstehe gut deutsch.', 'ich verstehe gut deutsch'] },
     { id: 'c', ro: 'Mi-am pierdut cheile.', correct: 'Ich habe meine Schlüssel verloren.', accept: ['ich habe meine schlüssel verloren.', 'ich habe meine schlüssel verloren', 'ich habe meine schluessel verloren.', 'ich habe meine schluessel verloren'] },
     { id: 'd', ro: 'El îi explică totul.', correct: 'Er erklärt ihr alles.', accept: ['er erklärt ihr alles.', 'er erklärt ihr alles', 'er erklaert ihr alles.', 'er erklaert ihr alles'] },
