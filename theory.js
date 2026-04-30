@@ -391,7 +391,7 @@ const theoryHTML = `
             </div>
 
             <div style="background: #dbeafe; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 6px; margin-bottom: 10px;">
-                <p><strong style="color: #1e3a8a;">Peter:</strong> Super! Bis heute Abend. Und keine Sorge — morgen wird besser! <button onclick="speakDialogLine(event, 11)" title="Ascultă" style="background:#3b82f6;color:white;border:none;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:13px;margin-left:4px;vertical-align:middle;">🔊</button></p>
+                <p><strong style="color: #1e3a8a;">Peter:</strong> Super! Bis heute Abend. Und keine Sorge — morgen wird es besser! <button onclick="speakDialogLine(event, 11)" title="Ascultă" style="background:#3b82f6;color:white;border:none;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:13px;margin-left:4px;vertical-align:middle;">🔊</button></p>
                 <p style="color: #6b7280; font-style: italic; font-size: 0.9rem;">Super! Pe diseară. Și nu-ți face griji — mâine va fi mai bine!</p>
             </div>
 
@@ -436,7 +436,7 @@ const dialogLines = [
     "Das ist lieb. Erinnerst du dich an die Pizzeria, die wir letzte Woche entdeckt haben?",
     "Ja, klar! Ich bestelle für uns. Was empfiehlst du?",
     "Eine große Pizza Margherita. Ich verspreche, ich bezahle diesmal!",
-    "Super! Bis heute Abend. Und keine Sorge — morgen wird besser!"
+    "Super! Bis heute Abend. Und keine Sorge — morgen wird es besser!"
 ];
 
 function speakDialogLine(event, index) {

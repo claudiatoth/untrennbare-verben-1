@@ -79,7 +79,7 @@ Peter: Ich kann dir helfen. Ich besuche dich heute Abend und wir verbringen Zeit
 Anna: Das ist lieb. Erinnerst du dich an die Pizzeria, die wir letzte Woche entdeckt haben?
 Peter: Ja, klar! Ich bestelle für uns. Was empfiehlst du?
 Anna: Eine große Pizza Margherita. Ich verspreche, ich bezahle diesmal!
-Peter: Super! Bis heute Abend. Und keine Sorge — morgen wird besser!
+Peter: Super! Bis heute Abend. Und keine Sorge — morgen wird es besser!
 ```
 
 ---
@@ -101,7 +101,7 @@ Dacă vrei ca Anna să sune cu voce feminină și Peter cu voce masculină, gene
 | 9 | `08-09.mp3` | Anna | Das ist lieb. Erinnerst du dich an die Pizzeria, die wir letzte Woche entdeckt haben? |
 | 10 | `08-10.mp3` | Peter | Ja, klar! Ich bestelle für uns. Was empfiehlst du? |
 | 11 | `08-11.mp3` | Anna | Eine große Pizza Margherita. Ich verspreche, ich bezahle diesmal! |
-| 12 | `08-12.mp3` | Peter | Super! Bis heute Abend. Und keine Sorge — morgen wird besser! |
+| 12 | `08-12.mp3` | Peter | Super! Bis heute Abend. Und keine Sorge — morgen wird es besser! |
 
 ---
 
